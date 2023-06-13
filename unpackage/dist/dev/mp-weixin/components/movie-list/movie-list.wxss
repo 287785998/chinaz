@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/**
+ * uni-app内置的常用样式变量
+ */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.zvideo-feedlist {
+  padding: 0 0 40rpx 0;
+}
+.zvideo-feed {
+  padding: 40rpx 0;
+  z-index: 0;
+}
+.zvideo-feedtitle {
+  font-weight: 700;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  font-size: 32rpx;
+  line-height: 40rpx;
+  color: #3b3b3b;
+}
+.zvideo-feedlist .zvideo-timetag {
+  padding-top: 20rpx;
+}
+.zvideo-timetag {
+  -webkit-text-size-adjust: none;
+  font-size: 24rpx;
+}
+.zvideo-feedlist-video {
+  margin-top: 40rpx;
+  position: relative;
+}
+.zvideo-timetag-prefix {
+  display: inline-block;
+}
+.zvideo-timetag-prefix-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.zvideo-timetag-prefix-container-own {
+  color: rgba(0, 0, 0, 0.54);
+  margin-right: 20rpx;
+  position: relative;
+}
+.zvideo-timetag-prefix-container-slash {
+  height: 20rpx;
+  width: 2rpx;
+  margin-right: 20rpx;
+  background-color: rgba(0, 0, 0, 0.54);
+}
+.zvideo-timetag-item {
+  color: rgba(0, 0, 0, 0.54);
+  margin-right: 20rpx;
+  position: relative;
+}
+

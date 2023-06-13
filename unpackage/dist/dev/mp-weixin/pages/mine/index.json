@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "z-tabbar": "/components/z-tabbar/z-tabbar"
+  }
+}

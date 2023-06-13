@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "文章详情",
+  "usingComponents": {
+    "top-menu": "/components/top-menu/top-menu",
+    "u-parse": "/uni_modules/uview-ui/components/u-parse/u-parse",
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
+    "hot-list": "/components/hot-list/hot-list",
+    "new-list": "/components/new-list/new-list",
+    "u-back-top": "/uni_modules/uview-ui/components/u-back-top/u-back-top",
+    "z-tabbar": "/components/z-tabbar/z-tabbar"
+  }
+}

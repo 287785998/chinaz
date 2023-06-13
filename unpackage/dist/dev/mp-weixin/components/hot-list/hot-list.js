@@ -1,0 +1,11 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/hot-list/hot-list"],{491:function(n,t,e){"use strict";e.r(t);var r=e(492),o=e(494);for(var u in o)["default"].indexOf(u)<0&&function(n){e.d(t,n,(function(){return o[n]}))}(u);e(496);var i,c=e(45),a=Object(c["default"])(o["default"],r["render"],r["staticRenderFns"],!1,null,null,null,!1,r["components"],i);a.options.__file="components/hot-list/hot-list.vue",t["default"]=a.exports},492:function(n,t,e){"use strict";e.r(t);var r=e(493);e.d(t,"render",(function(){return r["render"]})),e.d(t,"staticRenderFns",(function(){return r["staticRenderFns"]})),e.d(t,"recyclableRender",(function(){return r["recyclableRender"]})),e.d(t,"components",(function(){return r["components"]}))},493:function(n,t,e){"use strict";var r;e.r(t),e.d(t,"render",(function(){return o})),e.d(t,"staticRenderFns",(function(){return i})),e.d(t,"recyclableRender",(function(){return u})),e.d(t,"components",(function(){return r}));var o=function(){var n=this,t=n.$createElement;n._self._c},u=!1,i=[];o._withStripped=!0},494:function(n,t,e){"use strict";e.r(t);var r=e(495),o=e.n(r);for(var u in r)["default"].indexOf(u)<0&&function(n){e.d(t,n,(function(){return r[n]}))}(u);t["default"]=o.a},495:function(n,t,e){"use strict";(function(n){var r=e(4);Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;r(e(217));var o={name:"hotList",props:{posts:{type:Array,default:[]}},data:function(){return{}},methods:{gotoDetail:function(t){console.log(t),n.navigateTo({url:"/pages/article/detail?classid="+t.classid+"&id="+t.id})}}};t.default=o}).call(this,e(2)["default"])},496:function(n,t,e){"use strict";e.r(t);var r=e(497),o=e.n(r);for(var u in r)["default"].indexOf(u)<0&&function(n){e.d(t,n,(function(){return r[n]}))}(u);t["default"]=o.a},497:function(n,t,e){}}]);
+//# sourceMappingURL=../../../.sourcemap/mp-weixin/components/hot-list/hot-list.js.map
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/hot-list/hot-list-create-component',
+    {
+        'components/hot-list/hot-list-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('2')['createComponent'](__webpack_require__(491))
+        })
+    },
+    [['components/hot-list/hot-list-create-component']]
+]);

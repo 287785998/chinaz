@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "排行榜",
+  "usingComponents": {
+    "top-menu": "/components/top-menu/top-menu",
+    "u-sticky": "/uni_modules/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u-scroll-list": "/uni_modules/uview-ui/components/u-scroll-list/u-scroll-list",
+    "hot-list": "/components/hot-list/hot-list",
+    "u-back-top": "/uni_modules/uview-ui/components/u-back-top/u-back-top",
+    "z-tabbar": "/components/z-tabbar/z-tabbar"
+  }
+}

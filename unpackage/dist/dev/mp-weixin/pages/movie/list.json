@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "视频列表",
+  "usingComponents": {
+    "top-menu": "/components/top-menu/top-menu",
+    "u-sticky": "/uni_modules/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "movie-list": "/components/movie-list/movie-list",
+    "u-loadmore": "/uni_modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-back-top": "/uni_modules/uview-ui/components/u-back-top/u-back-top",
+    "z-tabbar": "/components/z-tabbar/z-tabbar"
+  }
+}

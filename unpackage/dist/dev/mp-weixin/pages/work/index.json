@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "工作台",
+  "usingComponents": {
+    "uni-swiper-dot": "/uni_modules/uni-swiper-dot/components/uni-swiper-dot/uni-swiper-dot",
+    "uni-section": "/components/uni-section/uni-section",
+    "uni-grid": "/uni_modules/uni-grid/components/uni-grid/uni-grid",
+    "uni-grid-item": "/uni_modules/uni-grid/components/uni-grid-item/uni-grid-item",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

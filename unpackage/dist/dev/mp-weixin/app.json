@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/login",
+    "pages/mine/index",
+    "pages/mine/info/index",
+    "pages/mine/info/edit",
+    "pages/mine/pwd/index",
+    "pages/mine/setting/index",
+    "pages/mine/help/index",
+    "pages/mine/about/index",
+    "pages/common/webview/index",
+    "pages/common/textview/index",
+    "pages/sort/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/article",
+      "pages": [
+        "list",
+        "detail"
+      ],
+      "name": "article"
+    },
+    {
+      "root": "pages/movie",
+      "pages": [
+        "list",
+        "detail"
+      ],
+      "name": "movie"
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "LSRONG",
+    "navigationBarBackgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#006abe",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "iconPath": "static/images/tabbar/menu3h.png",
+        "selectedIconPath": "static/images/tabbar/menu3h.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/work/index",
+        "iconPath": "static/images/tabbar/menu3h.png",
+        "selectedIconPath": "static/images/tabbar/menu3h.png",
+        "text": "文章"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/images/tabbar/menu3h.png",
+        "selectedIconPath": "static/images/tabbar/menu3h.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

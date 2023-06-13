@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/**
+ * uni-app内置的常用样式变量
+ */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.indexm_list .indexm_list {
+  margin-top: 40rpx;
+}
+.indexm_list .node {
+  padding: 36rpx 0 36rpx;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: inherit;
+  -webkit-box-align: center;
+  -moz-box-pack: inherit;
+  -moz-box-align: center;
+  display: box;
+  box-orient: horizontal;
+  box-pack: inherit;
+  box-align: center;
+  display: flex;
+  border-bottom: 2rpx solid #f0f0f0;
+  font-size: 0;
+}
+.indexm_list .node .node_left {
+  flex: 1;
+  justify-content: center;
+  align-self: center;
+}
+.node .ptitle {
+  font-size: 17px;
+  line-height: 1.47;
+  color: #3b3b3b;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.node .author {
+  line-height: 1。2em;
+  font-size: 11px;
+  color: #ababab;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.node .author ._span {
+  display: inline;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.indexm_list .node .pic-cover {
+  margin-left: 30rpx;
+  border-radius: 12rpx;
+}
+.indexm_list .node .pic-cover ._img, .indexm_list .node .pic-cover uni-image {
+  position: absolute;
+  width: 180rpx;
+  height: 140rpx;
+  left: 0;
+  top: 0;
+}
+

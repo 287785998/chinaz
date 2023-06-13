@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/**
+ * uni-app内置的常用样式变量
+ */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.list .li {
+  position: relative;
+  margin-top: 20rpx;
+  padding-bottom: 20rpx;
+  font-size: 32rpx;
+  padding-left: 48rpx;
+}
+.list .num {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #fff;
+  border-radius: 2px;
+  background: #ababab;
+}
+.list .li0 .fir {
+  background: #f84521;
+}
+.list .li1 .fir {
+  background: #ff6e25;
+}
+.list .li2 .fir {
+  background: #ff8b25;
+}
+.list .a {
+  display: block;
+  color: #3b3b3b;
+  line-height: 52rpx;
+  box-sizing: border-box;
+}
+.list .author {
+  line-height: 36epx;
+  color: #ababab;
+  font-size: 24rpx;
+}
+

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/**
+ * uni-app内置的常用样式变量
+ */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.borderShow.data-v-078a5d24 {
+  position: fixed;
+}
+.borderShow .uni-tabbar.data-v-078a5d24::after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px dashed #007AFF;
+  box-sizing: border-box;
+}
+.uni-tabbar.data-v-078a5d24 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 6rpx 0;
+  padding-bottom: calc(6rpx + constant(safe-area-inset-bottom));
+  padding-bottom: calc(6rpx + env(safe-area-inset-bottom));
+  box-sizing: border-box;
+  border-top: solid 1rpx #F3F3F3;
+  background-color: #fff;
+  box-shadow: 0px 0px 17rpx 1rpx rgba(206, 206, 206, 0.32);
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.uni-tabbar .uni-tabbar_item.data-v-078a5d24 {
+  width: 100%;
+  font-size: 20rpx;
+  text-align: center;
+}
+.uni-tabbar .uni-tabbar_icon.data-v-078a5d24 {
+  height: 48rpx;
+  width: 48rpx;
+  text-align: center;
+  margin: 0 auto;
+}
+.uni-tabbar .uni-tabbar_icon image.data-v-078a5d24 {
+  width: 100%;
+  height: 100%;
+}
+.uni-tabbar .uni-tabbar_label.data-v-078a5d24 {
+  font-size: 24rpx;
+  color: #282828;
+}
+.uni-tabbar .uni-tabbar_label.active.data-v-078a5d24 {
+  color: #006abe;
+}
+

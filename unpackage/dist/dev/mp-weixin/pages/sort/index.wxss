@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/**
+ * uni-app内置的常用样式变量
+ */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  height: 100vh;
+  background-color: #fff;
+}
+.wrap .search {
+  background: #ffffff;
+  margin-top: 40rpx;
+}
+.msg-time {
+  font-size: 26rpx;
+  padding: 10px 0;
+  color: #999999;
+  text-align: center;
+}
+.u-card__foot .u-icon {
+  margin-right: 10px;
+}
+.mip-tabs-label-wrap {
+  background: 0 0;
+  margin: 30rpx auto;
+}
+.mip-tabs-label-wrap {
+  font-size: 14px;
+  line-height: 1.5;
+  position: relative;
+  background: #fff;
+  z-index: 2;
+}
+.mip-tabs-label-wrap > view {
+  overflow-x: auto;
+  white-space: nowrap;
+  position: relative;
+}
+.mip-tabs-label-wrap .optionColor, .mip-tabs-label-wrap .optionColor ._span {
+  background: #fccd11;
+  color: #303133;
+  border-radius: 30px;
+}
+.mip-tabs-label-wrap .mip-tabs-label {
+  padding: 0 5px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+}
+.mip-tabs-label-wrap .mip-tabs-label {
+  padding: 0 20px;
+  height: 40px;
+  box-sizing: border-box;
+  line-height: 40px;
+  display: inline-block;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #303133;
+  position: relative;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
