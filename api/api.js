@@ -37,7 +37,7 @@ export function getMovieList(data) {
 //新闻详情
 export function getNewsDetail(data) {
   return request({
-    'url': '/ecmsapi/index.php?mod=news&act=detail',
+    'url': '/ecmsapi/index.php?mod=news&act=details',
     headers: {
       isToken: false
     },

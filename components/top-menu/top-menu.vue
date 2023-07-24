@@ -100,13 +100,13 @@
 				if(this.keywords == ''){
 					this.$u.toast('请输入关键词搜索')
 				}else{
-					if(this.classinfo.tbname == 'news'){
+					// if(this.classinfo.tbname == 'news'){
 						uni.reLaunch({
 							url:'/pages/article/list?keywords='+this.keywords
 						})
-					}else{
-						this.$u.toast('缺少模板')
-					}
+					// }else{
+					// 	this.$u.toast('缺少模板')
+					// }
 				}
 			},
 			clear(){

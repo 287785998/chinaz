@@ -15,7 +15,12 @@
 				<view class="article_content">
 					<u-parse :content="detail.newstext"></u-parse>
 				</view>
-				
+				<view class="label-wrap  clearfix" v-if="detail.keyboard && detail.keyboard.length > 0">
+<view class="label">相关话题</view>
+<view class="lebel-list">
+	<text v-for="item in detail.keyboard" class="a" @click="gokeyword(item)">{{item}}</text>
+</view>
+				</view>
 			</view>
 		</view>
 		<u-gap height="10" bgColor="#eee"></u-gap>
@@ -140,6 +145,11 @@
 				}
 			});
 		},
+		gokeyword(info){
+			uni.reLaunch({
+				url:'/pages/article/list?keywords='+info
+			})
+		}
 
 		
 	}
@@ -166,6 +176,33 @@ page {
 		margin-right: 10px;
 	}
 }
-
-
+.label-wrap {
+    color: #ababab;
+    display: block;
+    font-size: 28rpx;
+    margin-top: 40rpx;
+    margin-bottom: 40rpx;
+}
+.label-wrap .label {
+    float: left;
+    margin-right: 40rpx;
+    min-width: 120rpx;
+    line-height: 1;
+    margin-bottom: 20rpx;
+    width: 100%;
+}
+.main-inner .lebel-list .a {
+    margin-bottom: 20rpx;
+    margin-right: 40rpx;
+    min-width: 80rpx;
+    text-align: center;
+    color: #ababab;
+    font-size: 24rpx;
+    background: #f0f0f0;
+    padding: 10rpx 20rpx;
+    border-radius: 50rpx;
+    cursor: pointer;
+    font-size: 24rpx;
+    margin-right: 10rpx;
+}
 </style>
